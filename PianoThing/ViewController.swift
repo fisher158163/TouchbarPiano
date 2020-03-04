@@ -34,7 +34,8 @@ class ViewController: NSViewController {
     }
     
     @IBAction func PlayT(_ sender: Any) {
-        let path = Bundle.main.path(forResource: "/Users/Felix/Music/Bouncepad.wav", ofType:nil)!
+        //let path = Bundle.main.path(forResource: "/Users/Felix/Music/Bouncepad.wav", ofType:nil)!
+        let path =  "/Users/Felix/Music/Bouncepad.wav"
         let url = URL(fileURLWithPath: path)
 
         do {
